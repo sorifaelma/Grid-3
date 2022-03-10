@@ -1,0 +1,33 @@
+#a{
+    background-color: orange;
+    grid-area: a;
+ }
+ #b{
+     background-color: red;
+     grid-area: b;
+ }
+ #c{
+     background-color: seagreen;
+     grid-area: c;
+ }
+ #d{
+     background-color: darkseagreen;
+     grid-area: d;
+ }
+ #e{
+     background-color: sandybrown;
+     grid-area: e;
+ }
+
+ 
+ .CIS{
+     display: grid;
+     background-color: #2c3043;
+     text-align: center;
+     grid-template-columns: 1fr 1fr 1fr ;
+     grid-template-rows: 1fr 1fr 1fr ;
+     grid-template-areas: "a a b " "c d d " "e e e " ;
+     height: 50vh;
+     gap: 10px;
+     padding: 10px;
+ }
